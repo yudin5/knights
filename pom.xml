@@ -22,6 +22,22 @@
             <version>5.0.2.RELEASE</version>
         </dependency>
 
+        <!-- AspectJ dependencies -->
+        <!-- https://mvnrepository.com/artifact/org.aspectj/aspectjrt -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjrt</artifactId>
+            <version>1.7.3</version>
+        </dependency>
+
+
+        <!-- https://mvnrepository.com/artifact/aspectj/aspectjtools -->
+        <dependency>
+            <groupId>aspectj</groupId>
+            <artifactId>aspectjtools</artifactId>
+            <version>1.5.4</version>
+        </dependency>
+
     </dependencies>
 
 </project>

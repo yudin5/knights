@@ -1,6 +1,7 @@
 package knights;
 
 public class BraveKnight implements Knight {
+
     private Quest quest;
 
     public BraveKnight(Quest quest) {

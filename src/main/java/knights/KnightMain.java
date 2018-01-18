@@ -9,6 +9,12 @@ public class KnightMain {
                         "context.xml");
         Knight knight = (Knight) context.getBean("knight");
         knight.embarkOnQuest();
+
+        System.out.println();
+
+        Knight anotherKnight = (Knight) context.getBean("anotherKnight");
+        anotherKnight.embarkOnQuest();
+
         context.close();
     }
 }
